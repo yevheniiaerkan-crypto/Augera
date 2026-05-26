@@ -293,7 +293,7 @@ section{
 .story-main-text{
   max-width:760px;
   margin:0 auto 55px;
-  color:var(--text-soft);
+  color:white(--text-soft);
   font-size:20px;
 }
 
@@ -316,7 +316,7 @@ section{
 }
 
 .story-card h3{
-  color:var(--gold);
+  color:white(--gold);
   font-size:22px;
   text-transform:uppercase;
   letter-spacing:4px;
