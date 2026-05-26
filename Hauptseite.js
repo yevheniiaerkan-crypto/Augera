@@ -21,3 +21,28 @@ navLinks.forEach(link => {
   });
 
 });
+
+
+/* SLIDER */
+
+const slider = document.querySelector(".slider");
+
+const next = document.querySelector(".next");
+
+const prev = document.querySelector(".prev");
+
+if(slider && next && prev){
+
+  next.addEventListener("click", () => {
+
+    slider.scrollLeft += 450;
+
+  });
+
+  prev.addEventListener("click", () => {
+
+    slider.scrollLeft -= 450;
+
+  });
+
+}
