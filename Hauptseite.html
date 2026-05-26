@@ -26,6 +26,10 @@
       <a href="#gallery">Gallery</a>
       <a href="#contact">Contact</a>
     </nav>
+
+    <button id="mode-toggle" class="mode-toggle" type="button">
+      Light Mode
+    </button>
   </header>
 
   <main>
@@ -40,7 +44,7 @@
         <a href="#collection" class="hero-button">Explore Collection</a>
       </div>
     </section>
-    
+
     <section class="featured" id="collection">
       <p class="section-label">Featured Collection</p>
       <h2>Symbols of Power. Made to Last.</h2>
@@ -51,132 +55,86 @@
           <a href="Gallary_gelb.html" class="product-image-link">
             <img src="images/pumaD.jpg" alt="Classic Collection">
           </a>
-
           <h3>Classic Collection</h3>
-
-          <a href="Gallary_red.html">
-            View Collection ›
-          </a>
+          <a href="Gallary_gelb.html">View Collection ›</a>
         </article>
 
         <article class="product-card">
           <a href="Gallary_red.html" class="product-image-link">
-            <img src="images/PumaZ.jpg" alt="IMPERIAL RUBY COLLECTION">
+            <img src="images/PumaZ.jpg" alt="Imperial Ruby Collection">
           </a>
-
-          <h3>IMPERIAL RUBY COLLECTION</h3>
-
-          <a href="Gallary_red.html">
-            View Collection ›
-          </a>
+          <h3>Imperial Ruby Collection</h3>
+          <a href="Gallary_red.html">View Collection ›</a>
         </article>
+
         <article class="product-card">
           <a href="Gallary_weiss.html" class="product-image-link">
             <img src="images/PumaE.jpg" alt="Noir Diamond Collection">
           </a>
-
           <h3>Noir Diamond Collection</h3>
-
-          <a href="Gallary_weiss.html">
-            View Collection ›
-          </a>
-
-
-      </div>
-    </section>
-     <section class="featured" id="collection">
-      <div class="product-grid">
+          <a href="Gallary_weiss.html">View Collection ›</a>
+        </article>
 
         <article class="product-card">
           <a href="Gallary_grün.html" class="product-image-link">
             <img src="images/PumaG.png" alt="Emerald Collection">
           </a>
-
           <h3>Emerald Collection</h3>
-
-          <a href="Gallary_grün.html">
-            View Collection ›
-          </a>
+          <a href="Gallary_grün.html">View Collection ›</a>
         </article>
 
         <article class="product-card">
           <a href="Gallary_blau.html" class="product-image-link">
-            <img src="images/Pume_B.png" alt="SAPPHIRE NOIR COLLECTION">
+            <img src="images/Pume_B.png" alt="Sapphire Noir Collection">
           </a>
-
-          <h3>SAPPHIRE NOIR COLLECTION</h3>
-
-          <a href="Gallary_red.html">
-            View Collection ›
-          </a>
+          <h3>Sapphire Noir Collection</h3>
+          <a href="Gallary_blau.html">View Collection ›</a>
         </article>
+
         <article class="product-card">
           <a href="Gallary_pink.html" class="product-image-link">
-            <img src="images/PumeP.png" alt="ROSE NOIR COLLECTION">
+            <img src="images/PumeP.png" alt="Rose Noir Collection">
           </a>
-
-          <h3>ROSE NOIR COLLECTION</h3>
-
-          <a href="Gallary_pink.html">
-            View Collection ›
-          </a>
-
+          <h3>Rose Noir Collection</h3>
+          <a href="Gallary_pink.html">View Collection ›</a>
+        </article>
 
       </div>
     </section>
 
     <section class="story" id="story">
-
-  <div class="story-image">
-    <img src="images/Pume_Kind.jpg" alt="Augera Panther">
-  </div>
-
-  <div class="story-content">
-
-    <p class="section-label">Brand Story</p>
-
-    <h2>The Power Behind Augera</h2>
-
-    <p class="story-main-text">
-      Augera is a fictional luxury jewelry brand inspired by strength,
-      elegance and mystery. The black panther represents confidence,
-      beauty and timeless power.
-    </p>
-
-    <div class="story-cards">
-
-      <div class="story-card">
-        <h3>Strength</h3>
-
-        <p>
-          Inspired by the power and resilience
-          of the black panther.
-        </p>
+      <div class="story-image">
+        <img src="images/Pume_Kind.jpg" alt="Black panther as Augera brand symbol">
       </div>
 
-      <div class="story-card">
-        <h3>Elegance</h3>
+      <div class="story-content">
+        <p class="section-label">Brand Story</p>
+        <h2>The Power Behind Augera</h2>
 
-        <p>
-          Timeless luxury crafted with precision,
-          confidence and beauty.
+        <p class="story-main-text">
+          Augera is a fictional luxury jewelry brand inspired by strength,
+          elegance and mystery. The black panther represents confidence,
+          beauty and timeless power.
         </p>
+
+        <div class="story-cards">
+          <article class="story-card">
+            <h3>Strength</h3>
+            <p>Inspired by the power and resilience of the black panther.</p>
+          </article>
+
+          <article class="story-card">
+            <h3>Elegance</h3>
+            <p>Timeless luxury crafted with precision, confidence and beauty.</p>
+          </article>
+
+          <article class="story-card">
+            <h3>Mystery</h3>
+            <p>A mysterious atmosphere inspired by darkness and sophistication.</p>
+          </article>
+        </div>
       </div>
-
-      <div class="story-card">
-        <h3>Mystery</h3>
-
-        <p>
-          A mysterious atmosphere inspired by
-          darkness and sophistication.
-        </p>
-      </div>
-
-    </div>
-
-  </div>
-
-</section>
+    </section>
 
     <section class="signature" id="signature">
       <p class="section-label">Signature Symbol</p>
@@ -191,41 +149,32 @@
       <p class="section-label">Campaign Gallery</p>
       <h2>Jewelry in Motion</h2>
 
-      <section class="gallery" id="gallery">
+      <div class="slider-wrapper">
+        <button class="slider-btn prev" type="button" aria-label="Previous gallery images">&#10094;</button>
 
-  <div class="slider-wrapper">
+        <div class="slider">
+          <img src="images/Rot_Set_Hals.png" alt="Ruby necklace jewelry set">
+          <img src="images/Armband_grün.png" alt="Emerald bracelet">
+          <img src="images/Ohrstecher_weiss.png" alt="White diamond earrings">
+          <img src="images/Ring_blau.png" alt="Blue sapphire ring">
+          <img src="images/halskette_gelb.png" alt="Golden necklace">
+          <img src="images/Armband_pink_.png" alt="Pink bracelet">
+          <img src="images/Ohrstecher_blau.png" alt="Blue gemstone earrings">
+          <img src="images/Armband_gelb.png" alt="Golden bracelet">
+          <img src="images/Ohrstecher_gelb.png" alt="Golden earrings">
+          <img src="images/Ohrstecher_weiss_dünn.png" alt="Elegant thin white earrings">
+          <img src="images/Halskette_pink_dünn.png" alt="Thin pink necklace">
+          <img src="images/Halskette_grün (2).png" alt="Green gemstone necklace">
+          <img src="images/Armband_grün_dünn.png" alt="Thin green bracelet">
+          <img src="images/Armband_weiss.png" alt="White bracelet">
+          <img src="images/Halskette_pink.png" alt="Pink necklace">
+          <img src="images/Ohrstecher_grün.png" alt="Green gemstone earrings">
+          <img src="images/Ring_blau dünn.png" alt="Thin blue ring">
+          <img src="images/Ring_pink.png" alt="Pink gemstone ring">
+        </div>
 
-    <button class="slider-btn prev">&#10094;</button>
-
-    <div class="slider">
-
-      <img src="images/Rot_Set_Hals.png" alt="">
-      <img src="images/Armband_grün.png" alt="">
-      <img src="images/Ohrstecher_weiss.png" alt="">
-      <img src="images/Ring_blau.png" alt="">
-      <img src="images/halskette_gelb.png" alt="">
-      <img src="images/Armband_pink_.png" alt="">
-      <img src="images/Ohrstecher_blau.png" alt="">
-      <img src="images/halskette_gelb.png" alt="">
-      <img src="images/Armband_gelb.png" alt="">
-      <img src="images/Ohrstecher_gelb.png" alt="">
-      <img src="images/Ohrstecher_weiss_dünn.png" alt="">
-      <img src="images/Halskette_pink_dünn.png" alt="">
-      <img src="images/Halskette_grün (2).png" alt="">
-      <img src="images/Armband_grün_dünn.png" alt="">
-      <img src="images/Armband_weiss.png" alt="">
-      <img src="images/Halskette_pink.png" alt="">
-      <img src="images/Ohrstecher_grün.png" alt="">
-      <img src="images/Ring_blau dünn.png" alt="">
-      <img src="images/Ring_pink.png" alt="">
-
-    </div>
-
-    <button class="slider-btn next">&#10095;</button>
-
-  </div>
-
-</section>
+        <button class="slider-btn next" type="button" aria-label="Next gallery images">&#10095;</button>
+      </div>
     </section>
 
     <section class="contact" id="contact">
