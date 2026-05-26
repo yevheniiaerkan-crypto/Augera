@@ -1,3 +1,7 @@
+/* ==============================
+   SMOOTH SCROLL NAVIGATION
+   ============================== */
+
 const navLinks = document.querySelectorAll('a[href^="#"]');
 
 navLinks.forEach(link => {
@@ -10,11 +14,9 @@ navLinks.forEach(link => {
     const targetSection = document.querySelector(targetID);
 
     if (targetSection) {
-
       targetSection.scrollIntoView({
         behavior: "smooth"
       });
-
     }
 
   });
@@ -22,7 +24,9 @@ navLinks.forEach(link => {
 });
 
 
-/* SLIDER */
+/* ==============================
+   GALLERY SLIDER
+   ============================== */
 
 const slider = document.querySelector(".slider");
 const next = document.querySelector(".next");
@@ -31,24 +35,11 @@ const prev = document.querySelector(".prev");
 if (slider && next && prev) {
 
   next.addEventListener("click", () => {
-
     slider.scrollLeft += 450;
-
   });
 
   prev.addEventListener("click", () => {
-
     slider.scrollLeft -= 450;
-
   });
-
-}
-
-
-/* LIGHT / DARK MODE */
-
-if (window.matchMedia("(prefers-color-scheme: light)").matches) {
-
-  document.body.classList.add("light-mode");
 
 }
