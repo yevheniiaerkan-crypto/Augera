@@ -63,24 +63,16 @@ The goal was to create a modern fashion/jewelry brand experience similar to luxu
 ```text
 Augera/
 │
-├── Hauptseite.html
-├── Hauptseite.css
-├── Hauptseite.js
+├── index.html
+├── styles.css
+├── main.js
 │
-├── Gallary_red.html
-├── Gallary_red.css
-│
-├── Gallary_gelb.html
-├── Gallary_gelb.css
-│
-├── Gallary_blau.html
-├── Gallary_blau.css
-│
-├── Gallary_grün.html
-├── Gallary_grün.css
-│
-├── Gallary_pink.html
-├── Gallary_pink.css
+├── gallery_red.html
+├── gallery_yellow.html
+├── gallery_blue.html
+├── gallery_green.html
+├── gallery_pink.html
+├── gallery_styles.css
 │
 └── images/
 ```
